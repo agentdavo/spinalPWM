@@ -1,0 +1,1 @@
+addSbtPlugin("com.github.spinalhdl" % "sbt-spinalhdl" % "1.0.2")
