@@ -31,7 +31,7 @@ This document outlines strict guidelines for AI programmers contributing to the 
   - `src/main/resources/config/`: Configuration files (e.g., `coefficients.json`).
 
 ### SpinalHDL Requirements
-- **Version**: Use SpinalHDL 1.10.2 exclusively.
+- **Version**: Use SpinalHDL 1.12.2 exclusively.
 - **Language**: Write all hardware descriptions in Scala using SpinalHDL constructs.
 - **Components**:
   - Define components as `case class` for configurations (e.g., `HighResTIPWMConfig`) and `class` for implementation (e.g., `HighResTIPWM extends Component`).
