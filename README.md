@@ -9,14 +9,14 @@ A SpinalHDL project for a high-performance PWM audio amplifier, converting 96 kH
 - `target/verilog/`: Generated Verilog files.
 
 ## Setup
-1. Install SBT (version 1.10.2).
+1. Install SBT (version 1.10.0).
 2. Clone the repository.
 3. Run `sbt compile` to build.
 4. Run `sbt test` to execute simulations.
 5. Run `sbt run` to generate Verilog (`TopLevel.v`).
 
 ## Dependencies
-- SpinalHDL 1.10.2 (core, lib, sim)
+- SpinalHDL dev (core, lib, sim) from `lib/spinalHDL/`
 - ScalaTest 3.2.18
 
 ## Usage
